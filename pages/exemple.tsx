@@ -1,5 +1,6 @@
 import Header from "../src";
 
+//I need listen more for typescript
 const Exemple: React.FC = () => {
   return (
     <>
