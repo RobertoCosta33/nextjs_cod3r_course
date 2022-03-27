@@ -1,3 +1,5 @@
+import Layout from "../src/components/Layout";
+
 const Jsx: React.FC = () => {
   const title = <h1>JSX é um conceito central</h1>;
   const a = 4;
@@ -7,7 +9,7 @@ const Jsx: React.FC = () => {
   const subtitle = () => <h2>{"muito legal".toUpperCase()}</h2>;
 
   return (
-    <>
+    <Layout title="Entendendo o JSX">
       {title}
       {subtitle()}
       {Math.random()}
@@ -15,7 +17,7 @@ const Jsx: React.FC = () => {
       <p>
         Nome: {obj.name} Idade: {obj.age}
       </p>
-    </>
+    </Layout>
   );
 };
 
