@@ -1,5 +1,3 @@
-import { json } from "stream/consumers";
-
 const Jsx: React.FC = () => {
   const title = <h1>JSX é um conceito central</h1>;
   const a = 4;
