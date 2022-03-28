@@ -1,7 +1,8 @@
 import Link from "next/link";
 import styles from "../../styles/layout.module.css";
+import ILayoutPropos from "../types/ILayoutProps";
 
-const Layout: React.FC = (props) => {
+const Layout: React.FC<ILayoutPropos> = (props) => {
   return (
     <div className={styles.layout}>
       <div className={styles.header}>
